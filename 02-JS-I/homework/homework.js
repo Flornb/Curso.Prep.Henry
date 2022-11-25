@@ -28,7 +28,7 @@ const nuevoModulo = 21 % 5 === 1;
 function devolverString(str) {
   // "Return" la string provista: str
   // Tu código:
-  return String;
+  return str;
 }
 
 function suma(x, y) {
@@ -137,7 +137,7 @@ function elevarAlCubo(num) {
 function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
-  return Math.pow (num, exponente);
+  return Math.pow (num, exponent);
 }
 
 function redondearNumero(num) {
@@ -164,7 +164,7 @@ function esPositivo(numero) {
   //Si el número es negativo, devolver ---> "Es negativo"
   //Si el número es 0, devuelve false
   if (num===0) {return false;}
-  if (num>0) {
+  else if (num>0) {
     return "Es positivo";
   }
   else { 
